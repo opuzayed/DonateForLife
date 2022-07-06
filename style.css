@@ -72,3 +72,27 @@ h1 {
   text-align: center;
 }
 /* Donate Today section style end */
+
+/* our donate plan style start */
+.family-food {
+  border-radius: 5px;
+  margin: 20px 20px 20px 20px;
+  background-color: #d6dbdf;
+  padding: 30px;
+  height: 250px;
+}
+.shelter-family {
+  border-radius: 5px;
+  margin: 20px 20px 20px 20px;
+  background-color: #aed6f1;
+  padding: 30px;
+  height: 250px;
+}
+.child-education {
+  border-radius: 5px;
+  margin: 20px 20px 20px 20px;
+  background-color: #9b59b6;
+  padding: 30px;
+  height: 250px;
+}
+/* our donate plan style start */
