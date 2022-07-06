@@ -80,6 +80,7 @@ h1 {
   background-color: #d6dbdf;
   padding: 30px;
   height: 250px;
+  max-width: 200px;
 }
 .shelter-family {
   border-radius: 5px;
@@ -87,6 +88,7 @@ h1 {
   background-color: #aed6f1;
   padding: 30px;
   height: 250px;
+  max-width: 200px;
 }
 .child-education {
   border-radius: 5px;
@@ -94,8 +96,9 @@ h1 {
   background-color: #9b59b6;
   padding: 30px;
   height: 250px;
+  max-width: 200px;
 }
-/* our donate plan style start */
+/* our donate plan style end */
 
 /* get my updates style start */
 .get-text-style {
