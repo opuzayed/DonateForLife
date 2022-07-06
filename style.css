@@ -1,15 +1,17 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 #top-section {
   background-image: url(/Images/Help.jpg);
   background-repeat: no-repeat;
+  opacity: 0.8;
   height: 500px;
   background-size: cover;
   background-position: center;
   position: relative;
-  color: #ffffff;
+  color: #cccccc;
 }
 h1 {
   font-size: 50px;
@@ -26,6 +28,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 0;
+  text-shadow: 1px 1px 2px #000000;
 }
 .anchor-button {
   text-decoration: none;
@@ -33,5 +36,5 @@ h1 {
   padding: 10px 40px;
   border-radius: 5px;
   color: white;
-  font-weight: 700;
+  font-weight: 900;
 }
