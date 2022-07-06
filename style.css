@@ -96,3 +96,23 @@ h1 {
   height: 250px;
 }
 /* our donate plan style start */
+
+/* footer style start */
+.footer-style {
+  background-color: black;
+  height: 180px;
+}
+.footer-text-para {
+  text-align: center;
+  color: tomato;
+  font-family: "Gentium Book Plus", serif;
+  font-size: 20px;
+  padding-top: 25px;
+}
+.footer-text-style {
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
+  font-size: 10px;
+}
+/* footer style end */
