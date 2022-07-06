@@ -6,7 +6,6 @@ body {
 #top-section {
   background-image: url(/Images/Help.jpg);
   background-repeat: no-repeat;
-  opacity: 0.8;
   height: 500px;
   background-size: cover;
   background-position: center;
