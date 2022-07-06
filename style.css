@@ -97,10 +97,32 @@ h1 {
 }
 /* our donate plan style start */
 
+/* get my updates style start */
+.get-text-style {
+  font-size: 25px;
+}
+.input-design {
+  background-color: #f9ebea;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 150px;
+  margin-bottom: 100px;
+}
+.input-style {
+  text-align: center;
+  padding-top: 60px;
+}
+.email-input {
+  padding: 11px;
+  border-radius: 5px;
+  background-color: #cacfd2;
+}
+/* get my updates style end */
+
 /* footer style start */
 .footer-style {
   background-color: black;
-  height: 180px;
+  height: 175px;
 }
 .footer-text-para {
   text-align: center;
