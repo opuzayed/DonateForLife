@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donate For Life</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Gulzar&family=Inter:wght@200&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Gulzar&family=Inter:wght@200&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,6 +21,7 @@
     
     <!--Donate Now Section start-->
     <section class="top-section">
+      <div class="overlay"></div>
       <div class="top-text">
         <h1>Let's Help Those Who Are</h1>
         <h1>More In Need</h1>
@@ -38,41 +39,43 @@
 
     <!-- Donate Today Section Start-->
     <section>
-      <div class="today-donate">
-        <div class="today-text-style">
-          <h2>Donate Today</h2>
-          <p>
-            People’s houses have been damaged, washed away or completely covered
-            in the flood water. Thousands of people are looking to make their
-            way to flood shelters where they will need a lot of support, so
-            raise fund today.
-          </p>
-        </div>
-        <div class="tk-style">
-          <div>
-            <h2><span class="money-box">100tk</span></h2>
+      <div class="container">
+        <div class="today-donate">
+          <div class="today-text-style">
+            <h2>Donate Today</h2>
+            <p>
+              People’s houses have been damaged, washed away or completely covered
+              in the flood water. Thousands of people are looking to make their
+              way to flood shelters where they will need a lot of support, so
+              raise fund today.
+            </p>
           </div>
-          <div>
-            <h2><span id="money-id">200tk</span></h2>
+          <div class="tk-style">
+            <div>
+              <h2><span class="money-box">100tk</span></h2>
+            </div>
+            <div>
+              <h2><span id="money-id">200tk</span></h2>
+            </div>
+            <div>
+              <h2><span class="money-box">500tk</span></h2>
+            </div>
+            <div>
+              <h2><span class="money-box">1000tk</span></h2>
+            </div>
+            <div>
+              <h2><span class="money-box">5000tk</span></h2>
+            </div>
           </div>
-          <div>
-            <h2><span class="money-box">500tk</span></h2>
+          <br />
+          <div class="tk-style">
+            <p>Other Amount (Taka)</p>
           </div>
-          <div>
-            <h2><span class="money-box">1000tk</span></h2>
+          <hr/>
+          <br />
+          <div class="btn-style">
+            <a class="anchor-button" href="">Donate Now</a>
           </div>
-          <div>
-            <h2><span class="money-box">5000tk</span></h2>
-          </div>
-        </div>
-        <br />
-        <div class="tk-style">
-          <p>Other Amount (Taka)</p>
-        </div>
-        <hr class="hr-style" />
-        <br />
-        <div class="btn-style">
-          <a class="anchor-button" href="">Donate Now</a>
         </div>
       </div>
     </section>
@@ -81,46 +84,79 @@
 
     <!-- Our Donate Plan Section Start -->
     <section>
-      <div class="donate-plan">
-        <div class="today-text-style">
-          <h2>Our Donate Plan</h2>
-          <p>
-            We've decided to fund collect through our website to help the poor
-            people, later we'll send money to the flood victims.
-          </p>
-        </div>
-        <div class="plan-style tk-style">
-          <div class="family-food">
-            <img src="./Icons/food.png" alt="food icon" />
-            <h3>Food for a family</h3>
+      <div class="container">
+        <div class="donate-plan">
+          <div class="today-text-style">
+            <h2>Our Donate Plan</h2>
             <p>
-              Food is very very important in every life. Because without food we
-              can not survive in our life.
+              We've decided to fund collect through our website to help the poor
+              people, later we'll send money to the flood victims.
             </p>
           </div>
-          <div class="shelter-family">
-            <img src="./Icons/shelter.png" alt="Family Picture" />
-            <h3>Shelter for a family</h3>
-            <p>
-              There are six basic need's. One of them is shelter.When people
-              affected by flood, they much much needed shelter.
-            </p>
-          </div>
-          <div class="child-education">
-            <img src="./Icons/Frame.png" alt="Book Picture" />
-            <h3>Education for a child</h3>
-            <p>
-              Another important thing is Education, without education any nation
-              fall in denger, during flood education is greatly hampered.
-            </p>
+          <div class="plan-style tk-style">
+            <div class="family-food">
+              <img src="./Icons/food.png" alt="food icon" />
+              <h3>Food for a family</h3>
+              <p>
+                Food is very very important in every life. Because without food we
+                can not survive in our life.
+              </p>
+            </div>
+            <div class="shelter-family">
+              <img src="./Icons/shelter.png" alt="Family Picture" />
+              <h3>Shelter for a family</h3>
+              <p>
+                There are six basic need's. One of them is shelter.When people
+                affected by flood, they much much needed shelter.
+              </p>
+            </div>
+            <div class="child-education">
+              <img src="./Icons/Frame.png" alt="Book Picture" />
+              <h3>Education for a child</h3>
+              <p>
+                Another important thing is Education, without education any nation
+                fall in denger, during flood education is greatly hampered.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Our Donate Plan Section End -->
 
+    <!-- Middle section start -->
+    <section>
+      <div class="container">
+        <div class="today-text-style">
+          <h2>Helping others</h2>
+          <p>
+            We have dedicated ourselves to help those in need
+          </p>
+        </div>
+        <div class="middle-container">
+          <div class="half-width">
+            <div class="image-container">
+              <img src="./Images/donation0.jpg" alt="Left Image">
+              <div class="image-text">Giving daily necessities to people who need it the most.
+              </div>
+            </div>
+          </div>
+          <div class="half-width">
+            <div class="image-container">
+              <img src="./Images/donation10.jpg" alt="Left Image">
+              <div class="image-text">Our volunteers are always on standby.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Middle section start -->
+
+
     <!-- Get My Updates Section Start -->
         <section>
+          <div class="container">
             <div class="get-updates">
                 <div class="get-text-style today-text-style">
                     <h2>Get My Updates</h2>
@@ -134,6 +170,7 @@
                     </div>
                 </div>
             </div>
+          </div>
         </section>
     <!-- Get My Updates Section End -->
 

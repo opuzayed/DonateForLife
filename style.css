@@ -4,6 +4,11 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+.container {
+  width: 900px;
+  margin: 0 auto;
+  display: block;
+}
 /* Donate now section style start */
 .top-section {
   background-image: url(./Images/Help.jpg);
@@ -37,14 +42,20 @@ h1 {
   color: white;
   border: 0;
 }
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  display: block;
+}
 /* Donate now section style end */
 
 /* Donate Today section style start */
 .today-text-style {
   margin-top: 90px;
+  margin-bottom: 30px;
   text-align: center;
-  margin-left: 220px;
-  margin-right: 220px;
 }
 .tk-style {
   display: flex;
@@ -63,11 +74,6 @@ h1 {
   background-color: #fbfcfc;
   color: tomato;
   padding: 30px;
-}
-.hr-style {
-  margin-left: 240px;
-  margin-right: 240px;
-  margin-top: 0;
 }
 .btn-style {
   text-align: center;
@@ -101,26 +107,68 @@ h1 {
 }
 /* our donate plan style end */
 
+/* middle section style Start */
+.middle-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.half-width {
+  width: 50%;
+  margin: 0 -5px;
+}
+.image-container {
+  position: relative;
+  padding: 0 5px;
+}
+.image-container img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 5px;
+}
+.image-container .image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+}
+/* middle section style end */
+
 /* get my updates style start */
 .get-text-style {
   font-size: 25px;
 }
 .input-design {
   background-color: #f9ebea;
-  margin-left: 300px;
-  margin-right: 300px;
   height: 150px;
   margin-bottom: 100px;
 }
 .input-style {
   text-align: center;
   padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .email-input {
   padding: 11px;
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
   background-color: #cacfd2;
   border: 0;
+}
+.input-style .anchor-button {
+  border-radius: 0 5px 5px 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 /* get my updates style end */
 
